@@ -44,6 +44,18 @@ ul{
     display: flex;
     justify-content: space-around;
 }
+.contenedor-campos_radio{
+    display: flex;
+    flex-direction: column;
+}
+.campos_radio{
+    display: flex;
+    justify-content: space-around;
+}
+.campos_radio > div{
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width: 850px){
     .modal-content{
         width: 120%;
@@ -70,5 +82,8 @@ ul{
 @media(max-width: 580px){
     .modal-content{
         width: 80%;
+    }
+    .modal-footer{
+        flex-direction: column;
     }
 }
